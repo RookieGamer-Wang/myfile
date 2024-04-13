@@ -19,3 +19,16 @@ The following packages have unmet dependencies:
                     Depends: nvidia-modprobe (>= 520.61.05) but it is not going to be installed
                     Depends: nvidia-settings (>= 520.61.05) but it is not going to be installed
 E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Unpacking nvidia-compute-utils-535 (535.171.04-0ubuntu0.20.04.1) ...
+dpkg: error processing archive /var/cache/apt/archives/nvidia-compute-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb (--unpack):
+ unable to make backup link of './usr/bin/nvidia-cuda-mps-control' before installing new version: Invalid cross-device link
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Preparing to unpack .../nvidia-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking nvidia-utils-535 (535.171.04-0ubuntu0.20.04.1) ...
+dpkg: error processing archive /var/cache/apt/archives/nvidia-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb (--unpack):
+ unable to make backup link of './usr/bin/nvidia-debugdump' before installing new version: Invalid cross-device link
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Errors were encountered while processing:
+ /var/cache/apt/archives/nvidia-compute-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb
+ /var/cache/apt/archives/nvidia-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
