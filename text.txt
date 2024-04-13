@@ -8,3 +8,14 @@ https://huggingface.slack.com/archives/C01NHER1JLS/p1626913924220500
 https://files.pythonhosted.org/packages/26/55/e776489172f576b782e616f58273e1f3de56a91004b0d20504169dd345af/pybind11-2.12.0-py3-none-any.whl
 Failed to initialize NVML: Driver/library version mismatch
 NVML library version: 535.171
+The following packages have unmet dependencies:
+ cuda-drivers-520 : Depends: nvidia-compute-utils-520 (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-dkms-520 (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-driver-520 (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-kernel-common-520 (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-kernel-source-520 (>= 520.61.05) but it is not going to be installed or
+                             nvidia-kernel-open-520 (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-utils-520 (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-modprobe (>= 520.61.05) but it is not going to be installed
+                    Depends: nvidia-settings (>= 520.61.05) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
