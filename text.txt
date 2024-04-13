@@ -4,3 +4,4 @@ http://sasi42wps.hd-bkt.clouddn.com/TransAware.zip
 https://storage.googleapis.com/huggingface-nlp/datasets/bookcorpus/bookcorpus.tar.bz2
 nvidia-container-cli: initialization error: nvml error: driver/library version mismatch: unknown
 http://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64/nvidia-docker2_2.13.0-1_all.deb
+https://huggingface.slack.com/archives/C01NHER1JLS/p1626913924220500
