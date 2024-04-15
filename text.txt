@@ -35,3 +35,4 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 https://askubuntu.com/questions/1252188/cuda-install-issue-invalid-cross-device-link
 apt-get -o Dpkg::Options::="--force-overwrite" install --fix-broken
 Failed to initialize NVML: Driver/library version mismatch
+https://discuss.pytorch.org/t/torch-distributed-fails-on-more-than-2-gpus/191083
