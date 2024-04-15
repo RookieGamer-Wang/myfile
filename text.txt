@@ -37,3 +37,4 @@ apt-get -o Dpkg::Options::="--force-overwrite" install --fix-broken
 Failed to initialize NVML: Driver/library version mismatch
 https://discuss.pytorch.org/t/torch-distributed-fails-on-more-than-2-gpus/191083
 System call (e.g. socket, malloc) or external library call failed or device error. It can be also caused by unexpected exit of a remote peer, you can check NCCL warnings for failure reason and see if there is connection closure by a peer.
+https://pypi.org/project/pybind11/#files
