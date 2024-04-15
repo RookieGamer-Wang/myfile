@@ -32,3 +32,4 @@ Errors were encountered while processing:
  /var/cache/apt/archives/nvidia-compute-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb
  /var/cache/apt/archives/nvidia-utils-535_535.171.04-0ubuntu0.20.04.1_amd64.deb
 E: Sub-process /usr/bin/dpkg returned an error code (1)
+https://askubuntu.com/questions/1252188/cuda-install-issue-invalid-cross-device-link
